@@ -1,0 +1,41 @@
+:%s/cuaderno/notebook/g
+:%s/Cuaderno/Notebook/g
+:%s/Tabla de contenidos/Tabla de contenido/g
+:%s/Descargo de responsabilidad y atribución/Avisos legales y atribuciones/g
+:%s/Por defecto/Por omisión/g
+:%s/por defecto/por omisión/g
+:%s/el sondeo/el survey/g
+:%s/sondeo/survey/g
+:%s/la encuesta/el survey/g
+:%s/La encuesta/El survey/g
+:%s/a encuesta/e survey/g
+:%s/Encuesta/Survey/g
+:%s/encuesta/survey/g
+:%s/# Goles/# Objectivos/g
+:%s/# goles/# objectivos/g
+:%s/# Metas/# Objectivos/g
+:%s/# metas/# objectivos/g
+:%s/traz/grafic/g
+:%s/Traz/Grafic/g
+:%s/Trama/Grafica/g
+:%s/trama/grafica/g
+:%s/rebajas/markdown/g
+:%s/\] (/\](/g
+:%s/^    \"\\\"\\\"/    \"    \\\"\\\"/
+:%s/\\\"\\\" \\"\\n\"/\\\"\\\"\\"\\n\"/g
+:%s/##\(\S\)/## \1/g
+:%s/\"## ## /\"#### /
+:%s/\"# ## /\"### /
+:%s/\"## # /\"### /
+:%s/Pitón/Python/g
+:%s/pitón/python/g
+:%s/Fotograma/Imagen/g
+:%s/cuadro/imagen/g
+: " The following are mostly to be applied to the
+: " 'Ejemplos_de_Reduccion_con_DRAGONS' notebooks
+:%s/class=\\"ancla\\"/class=\\"anchor\\"
+:%s/sesgo/bias/g
+:%s/Sesgo/Bias/g
+:%s/plano/flat/g
+:%s/Plano/Flat/g
+: " wq
