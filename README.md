@@ -2,6 +2,8 @@
 
 # Description
 
+Here are the tools to begin a robust Jupyter notebook translation from English to Spanish
+
 ### translate2.py
 
 Python script that basically calls the Google Translate API and applies it cell by
